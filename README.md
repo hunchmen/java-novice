@@ -34,6 +34,12 @@ Platform-independent
 >* There are JVMs available for most platforms.
 >* Java programs run on any JVM - regardless of underlying OS
 
+Java Terminology
+>* Source code: the set of instruction written by the developer
+>* Compiler: converts source code into Java Bytecode
+>* Bytecode: the which can be executed in a Java virtual machine(JVM)
+
+
 
 
 
