@@ -46,12 +46,30 @@ Java Properties
 >* has a built-in garbage collector
 >* has a number of related languages
 
+Java Libraries
+>* The JRE includes a Java Class Library(JCL) that the JVM can call
+>* A library is a collection of commonly used programming resources
+>* The JCL contains a number of different packages:
+>>* java.lang contains basic classes and interfaces(e.g., Object, Thread)
+>>* java.math includes common math operations
+>>* java.text helps interact with SQL databases
 
+Java Garbage Collection
+>* Java's automatic garbage collector periodically cleans up unused objects
+>* A process that scans heap memory and identifies unused objects
+>* an unsused object is one that is not referenced by any part of a running program
+>* Un-referenced objects are deleted and the resources they consumed are available for other objects
+>* prevents users from having to explicitly free up resources
+>* add some overhead, but pros nearly always outweigh costs
 
-
-
-
-
+JVM Languages
+>* Several languages have compilers that translate their source code int JVM bytecode
+>* JVM languages typically have syntax very similar to Java
+>>* **Groovy** is a dynamic programming and scripting language
+>>* **Scala** is a functional programming language
+>>* **Kotlin** is commonly used in Android app development
+>>* **Clojure** is a dynamic language related to Lisp
+>* Knowing Java makes it very easy to learn these languages
 
 
 
