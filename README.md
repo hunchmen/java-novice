@@ -71,12 +71,50 @@ JVM Languages
 >>* **Clojure** is a dynamic language related to Lisp
 >* Knowing Java makes it very easy to learn these languages
 
+Benefits of Java
+>* Programs are easy to write, compile, debug and run
+>* Being object-oriented enables code-reusability
+>* Code is platform-independent
+>* Automatic garbage collection allows developers to focus on business logic
+>* Improved performance with multi-threading
 
+The limitations of Java
+>* Performance may not match languages that compile to native code, like C/C++
+>* static typing limits flexibility
 
+Applications of Java
+>* scientific applications: NLP, math operations
+>* web programming: through JSP, servlets and struts
+>* Big data: hadoop is written in Java
+>* GUI development: with Swing, JavaFX
+>* Mobile apps: android studio and kotlin
+>* Game development: jMonkeyEngine
+>* Distributed computing: with JDBC, MPI, etc
+>* ETL: various platforms use JAVA
 
+Java for Web Development
+>* servlets to respond to HTTP requests
+>* Java Server Pages(JSP) contain HTML and Java
+>* Spring is a framework that simplifies the building of complex web apps
 
+The Springframework for Web Apps
+>* Simplifies server-side development
+>* eliminates need for boiler-plate code and configurations
+>* enables the development of Rest APIs
+>* streamlines data access to
+>>* relational and NoSQL DBs
+>>* cloud-based data services, and
+>>* MapReduce frameworks
 
+Java for Big Data
+>* Apache Hadoop and most tools in its ecosystem are written in Java
+>* Apache Spark contains APIs for big data and is written in Scala and Java libraries
+>* Apache Kafka is used for realtime data and messaging and is written in Java and Scala
 
+Java for Mobile Apps
+>* Java was originally Google's preferred language for Android app development and is still supported
+>* the current preferred language is Kotlin - which is a JVM language
+>* Kotlin is fully interoperable with Java
 
 
 
