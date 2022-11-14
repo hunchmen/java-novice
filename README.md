@@ -39,6 +39,13 @@ Java Terminology
 >* Compiler: converts source code into Java Bytecode
 >* Bytecode: the which can be executed in a Java virtual machine(JVM)
 
+Java Properties
+>* statically typed
+>* is usually just-in time compiled
+>* includes a variety of built-in libraries
+>* has a built-in garbage collector
+>* has a number of related languages
+
 
 
 
