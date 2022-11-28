@@ -6,6 +6,8 @@
  */
 package com.via.variables;
 
+import java.util.Arrays;
+
 /**
  * 
  * @author via
@@ -22,7 +24,7 @@ public class DataTypes {
         short numCourse = 4;
         int age = 19;
         long tuituinPaid = 23983L;
-        float gpa = 3.2f;
+        float gpa = 10e3f;
         double incomeEarned = 8283.98d;
 
         System.out.println("Is Java Fun To learn? : " + isJavaFun);
@@ -36,5 +38,25 @@ public class DataTypes {
                 "Cumulative tuition paid by the student : " + tuituinPaid);
         System.out.println("The student GPA : " + gpa);
         System.out.println("Earned income : " + incomeEarned);
+
+        // ##############
+        byte varByte = 30;
+        System.out.println("byte value is : " + varByte);
+
+        byte newVarByte = 127;
+        System.out.println("byte value is : " + newVarByte);
+
+        // ##############
+        String name = "Fiona";
+        String name2 = new String();
+        System.out.println("The name is : " + name2);
+
+        String[] carBrands = {"Volvo", "BMW", "Ford", "Mazda"};
+        System.out.println("Car brands: " + carBrands);
+
+        String carBrandsString = Arrays.toString(carBrands);
+        System.out.println("The string of car brands : " + carBrandsString);
+        System.out.println("Numbers of car brands: " + carBrands.length);
+
     }
 }
