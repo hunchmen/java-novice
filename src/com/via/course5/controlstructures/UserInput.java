@@ -26,9 +26,20 @@ public class UserInput {
 
         System.out.println("The input temperature is : " + temperature);
 
-        if (temperature >= 84)
-            System.out.println("Its a hot day");
+        // String result = (temperature >= 84) ? "hot" : "not hot";
 
+        if (temperature >= 84) {
+
+            System.out.println("Its a hot day. Remember to stay hydrated.");
+
+        } else {
+
+            System.out.println(
+                    "A t-shirt and shorts may not be the best option today");
+
+        }
+
+        System.out.println("Have a nice day!!!");
     }
 
 }
