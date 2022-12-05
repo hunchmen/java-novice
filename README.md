@@ -116,6 +116,13 @@ Java for Mobile Apps
 >* the current preferred language is Kotlin - which is a JVM language
 >* Kotlin is fully interoperable with Java
 
+Classes
+>* a mold for a basic building block, a mold from which objects can be cast
+>* a template or building block that represents entities or "objects" in the real world(type of an object)
+
+Object-Oriented Programming
+>* a programming paradigm based on the concepts of "objects", which can contain data and code, and objects have types and those types are classes.
+
 
 
 
