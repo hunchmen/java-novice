@@ -123,9 +123,16 @@ Classes
 Object-Oriented Programming
 >* a programming paradigm based on the concepts of "objects", which can contain data and code, and objects have types and those types are classes.
 
+Member Variables
+>* also refers as instance variables, associated with individual objects of the class, every object is going to have its own copy.
 
+Static Variables
+>* also refers as class variable, associated with the class itself, which means there is just one copy of a static variable for all object of a class
 
+The "this" keyword
+>* special reference to a particular object from within the object itself
 
-
+Methods
+>* define the behavior of a class and the actions it can perform
 
 
