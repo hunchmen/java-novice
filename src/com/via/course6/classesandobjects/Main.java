@@ -6,6 +6,9 @@
  */
 package com.via.course6.classesandobjects;
 
+import java.util.Date;
+import java.util.Random;
+
 /**
  * 
  * @author via
@@ -23,5 +26,17 @@ public class Main {
         System.out.println("Another string: " + anotherString);
 
         System.out.println();
+
+        Date someDate = new Date();
+        System.out.println("Some Date: " + someDate);
+
+        Date anotherDate = new Date();
+        System.out.println("Another date: " + anotherDate);
+
+        System.out.println();
+
+        Random someRandom = new Random();
+        System.out.println("Some random: " + someRandom);
+
     }
 }
