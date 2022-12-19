@@ -15,6 +15,8 @@ package com.via.course8.methods;
 public class Main2 {
 
     public static void main(String[] args) {
+
+        // section 5
         Car c1 = new Car();
         System.out.println("(c1): " + c1);
         System.out.println("Name: " + c1.name);
@@ -31,5 +33,11 @@ public class Main2 {
         System.out.println("MPG: " + c2.mpg);
         System.out.println("Price: " + c2.price);
 
+        System.out.println();
+
+        // section 6
+        Car car1 = new Car();
+        System.out.println("(car1)" + car1);
+        car1.printCarInfo();
     }
 }
