@@ -20,6 +20,7 @@ public class Main {
     public static void main(String[] args) {
 
         String someString = new String("Hello String class!");
+        String someString1 = new String("Hello String class!");
         System.out.println("Some string: " + someString);
 
         String anotherString = new String("Another object of type string");
@@ -37,6 +38,10 @@ public class Main {
 
         Random someRandom = new Random();
         System.out.println("Some random: " + someRandom);
+
+        System.out.println("Equals " + someString.equals(someString));
+
+        System.out.println(someString == someString1);
 
     }
 }
