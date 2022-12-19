@@ -59,10 +59,37 @@ public class Employee {
         this.salary = salary;
     }
 
+    private void saveToDatabase() {
+        System.out.printf("Saving to database... Name: %s" + name);
+    }
+
     public void update(String name, double experience, double salary) {
-        setName(name);
-        setExperience(experience);
-        setSalary(salary);
+        this.setName(name);
+        this.setExperience(experience);
+        this.setSalary(salary);
+        saveToDatabase();
+    }
+
+    public double calculateBonus(float performancePercentage) {
+        double bonus = (salary * performancePercentage * 0.01);
+
+        return bonus;
+    }
+
+    public double calculateIncrement() {
+
+        double increment;
+
+        if (salary < 65000) {
+            increment = 0.10;
+        } else {
+            increment = 0.05;
+        }
+
+        salary = salary + salary * increment;
+
+        return increment;
+
     }
 
 }

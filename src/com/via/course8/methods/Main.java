@@ -40,8 +40,19 @@ public class Main {
         double experience = e2.getExperience();
         double salary = e2.getSalary();
 
-        System.out.printf("*** Name: %s, Experience: %.2f, Salary: %.2f", name,
-                experience, salary);
+        System.out.printf("*** Name: %s, Experience: %.2f, Salary: %.2f\n\n",
+                name, experience, salary);
+
+
+        // Section3
+        System.out.println("******Section3");
+        Employee emp1 = new Employee("Alex", 2.5, 70000);
+
+        System.out.println("Bonus : " + emp1.calculateBonus(10));
+        System.out.println("Increment% : " + emp1.calculateIncrement());
+        System.out.println("Updated salary : " + emp1.getSalary());
+
+        System.out.println();
 
     }
 }
