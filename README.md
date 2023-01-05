@@ -135,4 +135,20 @@ The "this" keyword
 Methods
 >* define the behavior of a class and the actions it can perform
 
+Inheritance
+>* models entities using an is-a relationship
+>* One class that extends or inherits from another class is known as inheritance
+>* a class is open for extension but close in modification
 
+Composition
+>* member variables of one class contained within another class is known as composition
+>* is meant for has-a relationship
+
+Polymorphism
+>* to have methods or behavior with the same name exhibit different behavior
+>* the ability of an object to behave in multiple ways
+
+Encapsulation
+>* to have a single object hold data and behavior
+>* data associated with an object of a class is hidden within the class
+>* and should only be accessed using the method of the class
