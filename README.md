@@ -152,3 +152,12 @@ Encapsulation
 >* to have a single object hold data and behavior
 >* data associated with an object of a class is hidden within the class
 >* and should only be accessed using the method of the class
+
+Constructors in Polymorphism
+<br />
+![alt text](resources/images/constructor_polymophism_overview.png)
+
+
+
+
+
