@@ -158,6 +158,27 @@ Constructors in Polymorphism
 ![alt text](resources/images/constructor_polymophism_overview.png)
 
 
+>* In polymorphism, the extends keyword is used to create a subclass that inherits from a superclass, while the implements keyword is used to specify that a class adheres to a particular interface.
+>* abstract class cannot be instantiated but can be extend
+>* 'final' keyword to a class makes the class un-extendible
+
+Access modifiers
+>* 'public' can be accessed by other class or anywhere
+>* 'protected' can be access by the same package and sub-class
+>* 'private' can only be accessed within the class where it is declared
+>* 'default' can be access within the same package
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
