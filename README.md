@@ -168,6 +168,10 @@ Access modifiers
 >* 'private' can only be accessed within the class where it is declared
 >* 'default' can be access within the same package
 
+Interfaces
+>* any method declared in interface is public
+>* member variables in interface is always public static final
+>* can create a method with body in interface using static and default keyword
 
 
 
