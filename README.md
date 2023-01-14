@@ -135,4 +135,54 @@ The "this" keyword
 Methods
 >* define the behavior of a class and the actions it can perform
 
+Inheritance
+>* models entities using an is-a relationship
+>* One class that extends or inherits from another class is known as inheritance
+>* a class is open for extension but close in modification
+
+Composition
+>* member variables of one class contained within another class is known as composition
+>* is meant for has-a relationship
+
+Polymorphism
+>* to have methods or behavior with the same name exhibit different behavior
+>* the ability of an object to behave in multiple ways
+
+Encapsulation
+>* to have a single object hold data and behavior
+>* data associated with an object of a class is hidden within the class
+>* and should only be accessed using the method of the class
+
+Constructors in Polymorphism
+<br />
+![alt text](resources/images/constructor_polymophism_overview.png)
+
+
+>* In polymorphism, the extends keyword is used to create a subclass that inherits from a superclass, while the implements keyword is used to specify that a class adheres to a particular interface.
+>* abstract class cannot be instantiated but can be extend
+>* 'final' keyword to a class makes the class un-extendible
+
+Access modifiers
+>* 'public' can be accessed by other class or anywhere
+>* 'protected' can be access by the same package and sub-class
+>* 'private' can only be accessed within the class where it is declared
+>* 'default' can be access within the same package
+
+Interfaces
+>* any method declared in interface is public
+>* member variables in interface is always public static final
+>* can create a method with body in interface using static and default keyword
+
+
+
+
+
+
+
+
+
+
+
+
+
 
