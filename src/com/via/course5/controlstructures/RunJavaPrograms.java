@@ -20,6 +20,7 @@ public class RunJavaPrograms {
 
         // javac RunJavaPrograms
         // java RunJavaPrograms Document
+        // java RunJavaPrograms Document 5
 
         System.out.println("The input args are: " + Arrays.toString(args));
 
